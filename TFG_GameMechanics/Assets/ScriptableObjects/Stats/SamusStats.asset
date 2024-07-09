@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751b65ac448a4faf909c5629ba5b3b46, type: 3}
+  m_Name: SamusStats
+  m_EditorClassIdentifier: 
+  pushForce: 6
+  snapForce: 15
+  slideForce: 10
+  rotationSpeed: 970
+  gravity: 49
+  fallGravity: 65
+  gravityTopSpeed: 50
+  canPickUp: 1
+  canPickUpOnAir: 0
+  canJumpWhileHolding: 1
+  pickDistance: 0.5
+  throwVelocityMultiplier: 1.5
+  applySlopeFactor: 1
+  acceleration: 100
+  deceleration: 30
+  friction: 28
+  slopeFriction: 18
+  topSpeed: 12
+  turningDrag: 30
+  airAcceleration: 32
+  brakeThreshold: -0.8
+  slopeUpwardForce: 25
+  slopeDownwardForce: 28
+  runningAcceleration: 20
+  runningTopSpeed: 12
+  runningTurningDrag: 14
+  cameraHorizontalRotationSpeed: 300
+  cameraVerticalRotationSpeed: 1
+  cameraHorizontalAimingSpeed: 120
+  cameraVerticalAimingSpeed: 0.5
+  multiJumps: 1
+  coyoteJumpThreshold: 0.15
+  maxJumpHeight: 25
+  minJumpHeight: 10
+  canSlide: 1
+  slideHeight: 1
+  minSlideDuration: 0.5
+  crouchFriction: 10
+  crawlingAcceleration: 8
+  crawlingFriction: 32
+  crawlingTopSpeed: 2.5
+  crawlingTurningSpeed: 3
+  canWallDrag: 1
+  wallJumpLockMovement: 1
+  minGroundDistanceToDrag: 0.5
+  minWallAngleToDrag: 60
+  wallDragLayers:
+    serializedVersion: 2
+    m_Bits: 131072
+  wallDragSkinOffset: {x: 0, y: 0, z: 0}
+  wallDragGravity: 12
+  wallJumpDistance: 8
+  wallJumpHeight: 15
+  canLedgeHang: 1
+  ledgeHangingLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  ledgeHangingSkinOffset: {x: 0, y: 0, z: 0}
+  ledgeMaxForwardDistance: 0.25
+  ledgeMaxDownwardDistance: 0.25
+  ledgeSideMaxDistance: 0.5
+  ledgeSideHeightOffset: 0.15
+  ledgeSideCollisionRadius: 0.25
+  ledgeMovementSpeed: 1.5
+  canClimbLedges: 1
+  ledgeClimbingLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  ledgeClimbingSkinOffset: {x: 0, y: 0, z: 0}
+  ledgeClimbingDuration: 1
+  canAirDash: 1
+  canGroundDash: 1
+  dashForce: 25
+  dashDuration: 0.3
+  groundDashCoolDown: 0.5
+  allowedAirDashes: 1
